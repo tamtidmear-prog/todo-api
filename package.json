@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "bun --hot src/index.ts",
     "start": "bun src/index.ts",
-    "test": "bun test"
+    "test": "bun test",
+    "seed": "bun src/seed.ts"
   },
   "type": "module",
   "private": true,

@@ -76,6 +76,8 @@ app.delete("/api/tasks/:id", (c) => {
   return c.json({ message: "deleted", id });
 });
 
+export { app };
+
 export default {
   port: 4000,
   fetch: app.fetch,
